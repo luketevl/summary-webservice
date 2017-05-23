@@ -4,7 +4,7 @@
 > API é uma **interface de aplicações voltada para aplicações**, ou seja uma API é criada quando uma **empresa de software tem a intenção de que outros criadores de software desenvolvam produtos associados ao seu serviço**. Exemplo: Google MAPS, ele possui milhões de endereços cadastrados e o google disponibiliza esses dados por meio de uma API.
 
 - Caracteristicas
-  - Permite a **interoperável**(_diferentes sistemas e linguagens se comunicão de forma padronizada via json ou xml_) entre sistemas e linguagens.
+  - Permite a **interoperável**(_diferentes sistemas e linguagens se comunicam de forma padronizada via json ou xml_) entre sistemas e linguagens.
   - Utiliza **protocolo** **HTTP** para _comunicação_
   - Baseado em padrões mantidos pla **W3C**
 

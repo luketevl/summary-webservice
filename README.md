@@ -91,7 +91,7 @@
   
 - Regras
   - Cliente
-    - Preocupa em **como** vai **MOSTRAR** esses dados para o cliente. Tipo colocar os dados em um select, em uma <ul></ul>
+    - Preocupa em **como** vai **MOSTRAR** esses dados para o cliente. Tipo colocar os dados em um select, em uma `<ul></ul>
   - Servidor
     - Preocupa em **ARMAZENAR** e faz **lógica do negócio**. Tipo fazer um IF, ve se o usuário e senha estão corretos, salvar no **banco de dados**
   - Sem estado( **stateless** )
@@ -174,7 +174,7 @@ GET http://www.acme.com/phonebook/UserDetails/12345
     - Plataforma e linguagem independentes
     - Bem descrito usando o WSDL
     
-- **SOAP** 
+- **REST** 
   - Desvantagens
     - **FALTAM** padroes
     - **Falta segurança** pois pode passar pela URL dados secretos.

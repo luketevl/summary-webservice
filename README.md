@@ -144,3 +144,43 @@ GET http://www.acme.com/phonebook/UserDetails/12345
 
 
 # RESTFUL
+
+> Criado para dar **simplificidade** e **eficiencia** ao padrão **REST**
+
+- Ele segue **INTEGRALMENTE** as recomendações **REST** ou seja pelo **METODO** (get, post, put, patch, etc) ele sabe squando vai (buscar, salvar, sobreescrever todos os dados, editar, etc).
+
+- **Sem** o padrao **RESTFUL** ele diferencia na **URL** quando ele quer EDITAR, EXCLUIR E ALTERAR. 
+- **Com** o padrao **RESTFUL** ele diferencia no **METODO**(get, post, delete, put) quando ele quer EDITAR, EXCLUIR E ALTERAR. 
+
+![Tabela rest vs restful](http://i.imgur.com/PTns2Mn.png)
+
+- Caracteristicas
+  - **SEM ESTADO** **stateless**
+  - Pode enviar receber **XML** ou **JSON**
+  
+  
+  
+  # Obvervações
+  
+- **SOAP** 
+  - Desvantagens
+    - Burocratico
+    - Performance
+    - Requisicao tem tamanho maior(por ser em xml)
+    - **Possui** varios padroes
+    - ~~chato~~
+  - Vantagens
+    - Altamente tipado ( voce tem que definir qual o tipo de dados que ta recebendo e enviando, string, int, real).
+    - Plataforma e linguagem independentes
+    - Bem descrito usando o WSDL
+    
+- **SOAP** 
+  - Desvantagens
+    - **FALTAM** padroes
+    - **Falta segurança** pois pode passar pela URL dados secretos.
+  - Vantagens
+    - **Simples**
+    - **Altamente escalavel**
+    - **Nao possui estado** stateless
+    - Curva de aprendizagem baixa
+    - Utiliza protocolo HTTP para comunicação, o que deixa o trafego de dados menor.

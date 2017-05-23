@@ -95,8 +95,8 @@
   - Servidor
     - Preocupa em **ARMAZENAR** e faz **lógica do negócio**. Tipo fazer um IF, ve se o usuário e senha estão corretos, salvar no **banco de dados**
   - Sem estado( **stateless** )
-    - Servidor **não** mantem **ESTADO** sobbre a **sessão** do usuário/aplicação. Ou seja nunca fica LOGADO.
-    - Toda **requisição** deve ter todas as informações ( URL, METODO(get, post, patch) parametros http://google.com?nome=teste
+    - Servidor **não** mantem **ESTADO** sobbre a **sessão** do usuário/aplicação. Ou seja nunca fica LOGADO
+    - Toda **requisição** deve ter todas as informações ( URL, METODO(get, post, patch) parametros http://google.com?nome=teste
   - Permite cache
     - Tem como escolher se quer ou não cache
     - As **respostas** podem ser armazenadas em **cache** ( NO CLIENTE)
